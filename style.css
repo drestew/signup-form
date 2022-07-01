@@ -2,6 +2,11 @@ html {
     font-size: 62.5%;
 }
 
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
 .inputs {
     display: grid;
     grid-template-areas: 
@@ -18,4 +23,15 @@ html {
 
 .last {
     grid-area: last;
+}
+
+.logo-img {
+    height: 100%;
+    width: 30%;
+    object-fit: contain;
+}
+
+.logo {
+    background-image: url('hp-bg.jpg');
+    background-size: contain;
 }
