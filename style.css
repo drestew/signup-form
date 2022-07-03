@@ -17,8 +17,19 @@ html {
 .main {
     background-color: rgb(250, 246, 241);
     width: 100%;
+    padding-top: 10rem;
 }
 
+.main-title, .main-caption {
+    font-size: 3rem;
+    padding-right: 8rem;
+    padding-left: 5rem;
+    font-weight: 700;
+}
+
+.main-caption {
+    margin-bottom: 6rem;
+}
 .inputs {
     display: grid;
     grid-template-areas: 
@@ -63,4 +74,37 @@ html {
     font-family: norse-bold, sans-serif;
     color: whitesmoke;
     font-size: 10rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: grid;
+    grid-template-areas: 
+        'first last'
+        'email phone'
+        'pw confirm-pw';
+    grid-gap: 2rem 5rem;
+    width: 70%;
+}
+
+.signup {
+    margin-bottom: 3rem;
+    padding: 1rem 0 4rem 5rem;
+    background-color: rgb(253, 255, 255);
+}
+
+.signup-title {
+    font-size: 3rem;
+}
+
+.create-account {
+    padding-left: 5rem;
+}
+
+.create-account-btn {
+    background-color: green;
 }
