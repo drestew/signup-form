@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-up Form</title>
     <link href="style.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="layout">
@@ -43,15 +44,17 @@
             </label>
             <label for="pw">
               <span>PASSWORD</span>
-              <input type="password" name="pw" id="pw">
+              <input type="password" name="pw" id="pw" required>
+              <span class="pw-error">*Passwords do not match!</span>
             </label>
             <label for="confirm-pw">
               <span>CONFIRM PASSWORD</span>
-              <input type="text" name="confirm-pw" id="confirm-pw">
+              <input type="password" name="confirm-pw" id="confirm-pw" required>
             </label>
         </section>
         <div class="create-account">
-          <input type="submit" class="creat-account-btn" name="submit" id="submit" value="Create Account">
+          <button class="create-account-btn">Create Account</button>
+          <!-- <input type="submit" class="creat-account-btn" name="submit" id="submit" value="Create Account"> -->
           <p class="has-account">Already have an account? <a href="#" class="login">Log in</a></p>
         </div>
       </form>

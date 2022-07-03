@@ -104,7 +104,7 @@ form {
     margin-bottom: 0.5rem;
 }
 
-.signup input {
+input {
     height: 3rem;
     border: solid 0.2rem #d0d1d4;
     border-radius: 0.5rem;
@@ -125,7 +125,7 @@ form {
     padding-left: 5rem;
 }
 
-input[type="submit"] {
+.create-account-btn {
     background-color: rgb(69, 116, 69);
     color: white;
     padding: 1.5rem 5rem;
@@ -142,4 +142,14 @@ input[type="submit"] {
     color: rgb(69, 116, 69);
     text-decoration: none;
     font-weight: 700;
+}
+
+.error {
+    border: solid 0.25rem red;
+}
+
+.pw-error {
+    display: none;
+    color: red;
+    font-size: 1rem;
 }
