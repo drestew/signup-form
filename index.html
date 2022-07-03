@@ -15,7 +15,7 @@
           <h1 class="logo-text">ODIN</h1>
         </div>
       </div>
-      <div class="main">
+      <section class="main">
         <div>
           <h2>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
@@ -23,39 +23,39 @@
           </h2>
           <h2>Cupiditate fugiat nostrum officiis.</h2>
         </div>
-        <div>
+        <section class="sign-up">
           <h2>Let's do this!</h2>
-          <div class="inputs">
-            <div class="input-item first">
+          <form action="#">
+            <label for="first-name">
               <span>FIRST NAME</span>
-              <input type="text" />
-            </div>
-            <div class="input-item last">
+              <input type="text" name="first-name" id="first-name">
+            </label>
+            <label for="last-name">
               <span>LAST NAME</span>
-              <input type="text" />
-            </div>
-            <div class="input-item email">
+              <input type="text" name="last-name" id="last-name">
+            </label>
+            <label for="email">
               <span>EMAIL</span>
-              <input type="text" />
-            </div>
-            <div class="input-item phone">
+              <input type="text" name="email" id="email">
+            </label>
+            <label for="phone">
               <span>PHONE NUMBER</span>
-              <input type="text" />
-            </div>
-            <div class="input-item pw">
+              <input type="tel" name="phone" id="phone">
+            </label>
+            <label for="pw">
               <span>PASSWORD</span>
-              <input type="text" />
-            </div>
-            <div class="input-item confirm-pw">
+              <input type="password" name="pw" id="pw">
+            </label>
+            <label for="confirm-pw">
               <span>CONFIRM PASSWORD</span>
-              <input type="text" />
-            </div>
-          </div>
-        </div>
+              <input type="text" name="confirm-pw" id="confirm-pw">
+            </label>
+        </section>
         <div>
           <button class="create-account">Create Account</button>
           <p>Already have an account? <a href="#" class="login">Log in</a></p>
         </div>
+      </form>
       </div>
     </div>
   </body>
